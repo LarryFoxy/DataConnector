@@ -1,4 +1,4 @@
-```markdown
+markdown
 # ViewRepository • Просмотр и загрузка данных GitHub
 
 ## Основные возможности:
