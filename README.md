@@ -34,7 +34,7 @@ python debag.py
 # 4. Выберите файлы → "Скачать этот элемент" или скачайте все!
 ```
 
-## 📋 Настройка для класса
+## Настройка для класса
 
 1. **Создайте публичный репозиторий** `User/Project`
 2. **Добавьте папку** `FileMain` с данными
@@ -45,70 +45,28 @@ python debag.py
 **config.json создается автоматически и защищается:**
 ```json
 {
-    "github_user": "LarryFoxy",
-    "github_repo": "DataConnector", 
-    "github_folder": "Test_Data_Folder",
+    "github_user": "Имя",
+    "github_repo": "Репозиторий", 
+    "github_folder": "Папка",
     "save_dir": "./Downloads",
     "admin_key": "sha256_хэш"
 }
 ```
 
-## 🖥️ Скриншот
-
-```
-[Дерево файлов GitHub]  [Статус: Есть]  [Проверить] [Скачать все]
-📁 Test_Data_Folder           
-├─ 📄 data1.csv              
-├─ 📁 Data_TEST              
-│  └─ 📄 test2.py           
-└─ ...                       
-[Лог: DATA-C GUI стартует... ✓ Файл сохранён...]
-```
-
-## 🔧 Технические детали
+## Технические детали
 
 - **PyQt6** — современный GUI framework
 - **GitHub Contents API** — tree/listing + raw.githubusercontent.com для скачивания
 - **Черно-белая тема** — Fusion style + QSS
 - **Асинхронная загрузка** — QThread, не блокирует интерфейс
-- **Защита config** — `attrib +r +h +s` на Windows
+- **Защита config** — на Windows
 
-## 📁 Структура проекта
-
-```
-DataConnector/
-├── Test_Data_Folder/     # Данные для класса
-│   ├── data1.csv
-│   └── Data_TEST/
-│       └── test2.py
-├── data_c.py            # ← Эта программа
-├── config.json          # Автосоздается
-└── Downloads/           # Результат скачивания
-```
-
-## 👥 Для школьного класса (30+ учеников)
+## 30+ учеников
 
 1. **Один репозиторий** — все работают с одними данными
 2. **Без GitHub токенов** — публичный доступ
 3. **Локальная работа** — каждый качает в `./Downloads`
-4. **Простая раздача** — `data_c.py + pip install`
 
-## 📞 Поддержка
+## Поддержка
 
-- **Проблемы с 403?** → Репозиторий должен быть публичным
-- **Не видит папку?** → Проверьте `Test_Data_Folder` в корне repo
-- **Две папки?** → `del config.json` + перезапуск
-
-## 🙌 Благодарности
-
-Создано для **школьных уроков информатики** • LarryFoxy • 2026
-
-<div align="center">
-  
-[![Star](https://img.shields.io/github/stars/LarryFoxy/DataConnector?style=social)](https://github.com/LarryFoxy/DataConnector)
-[![Fork](https://img.shields.io/github/forks/LarryFoxy/DataConnector?style=social)](https://github.com/LarryFoxy/DataConnector)
-
-</div>
-```
-
-**Скопируйте в `README.md`** — готово для GitHub! 🚀
+- **Проблемы с 403?** → Репозиторий должен быть публичным / Подождите около 5 минут.
