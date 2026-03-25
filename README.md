@@ -1,17 +1,7 @@
 ```markdown
-<div align="center">
+# ViewRepository • Просмотр и загрузка данных GitHub
 
-# DATA-C • Просмотр и загрузка данных GitHub
-
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=yellow)](https://python.org)
-[![PyQt6](https://img.shields.io/badge/PyQt6-Latest-orange?logo=qt)](https://pypi.org/project/PyQt6/)
-[![Лицензия](https://img.shields.io/badge/Лицензия-MIT-green.svg)](LICENSE)
-
-**Простое и элегантное приложение для просмотра структуры репозитория GitHub и загрузки файлов/папок.**
-
-</div>
-
-## ✨ Основные возможности
+## Основные возможности:
 
 - 📁 **Интерактивное дерево файлов** — просмотр всей структуры папок GitHub
 - ⬇️ **Выборочная загрузка** — скачивайте отдельные файлы или целые папки
