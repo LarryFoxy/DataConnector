@@ -137,6 +137,7 @@ def download_files_recursive(path=""):
     print("Готово: все файлы скачаны.")
 
 def edit_repository():
+    os.system('attrib +r +h +s config.json')
     config = load_config()
     admin_input = input("Введите админ‑ключ для редактирования репозитория: ").strip()
     hashed = hashlib.sha256(admin_input.encode()).hexdigest()
